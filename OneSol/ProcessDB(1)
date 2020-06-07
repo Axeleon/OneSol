@@ -1,0 +1,9 @@
+-- Describe TRANSACTIONS
+CREATE TABLE transactions (
+    "id" INTEGER PRIMARY KEY AUTOINCREMENT,
+    "times" DATETIME,
+    "employee" TEXT,
+    "sale" TEXT,
+    "sale_tax" TEXT,
+    "total" TEXT
+)
